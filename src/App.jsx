@@ -5,9 +5,6 @@ import CardDigimon from "./components/CardDigimon";
 import { Grid } from "@mui/material";
 import { Container } from "@mui/system";
 
-//https://digimon-api.vercel.app/api/digimon
-//https://digimon-api.vercel.app/api/digimon/name/agumon
-
 function App() {
   const [digimons, setDigimons] = useState([]);
 
